@@ -1,0 +1,7 @@
+for _ in range(int(input())):
+    n, k = map(int, input().split(' '))
+    l = min(map(int, input().split(' '))) 
+    if l < k: 
+      print(k - l)
+    else:
+      print(0)
